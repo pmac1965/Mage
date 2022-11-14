@@ -1,0 +1,7 @@
+# Visual Studio files
+*.vsidx
+*.ipch
+*.db
+*.db-shm
+*.db-wal
+*.opendb
