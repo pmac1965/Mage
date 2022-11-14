@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source\Mage">
+      <UniqueIdentifier>{f9d54cc8-0ca0-4b0c-ae90-525462940e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mage\Core">
+      <UniqueIdentifier>{bcf5e9bd-a72c-4047-be11-e188ab2a3257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mage\Debug">
+      <UniqueIdentifier>{c5df3b67-2000-47c7-a3ec-8a9ab49a1906}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Mage\Core\types.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\config.h">
+      <Filter>Source\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\mage.h">
+      <Filter>Source\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\version.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Mage\Core\version.cpp">
+      <Filter>Source\Mage\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
