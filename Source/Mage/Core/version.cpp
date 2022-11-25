@@ -18,7 +18,7 @@
 #include "config.h"
 #include "Core/types.h"
 #include "Core/version.h"
-//#include "Debug/assert.h"
+#include "Debug/assert.h"
 #include <cstdio>
 
 
@@ -44,8 +44,8 @@ namespace Page
         // Acquire engine version number as a string.
         void VersionGetAsString(char* buffer, s32 bufferSize)
         {
-    //        ASSERT(buffer && *buffer, "Buffer cannot be null.");
-   //         ASSERT(bufferSize > 15 && bufferSize < 256, "Invalid buffer size");
+            ASSERT(buffer && *buffer, "Buffer cannot be null.");
+            ASSERT(bufferSize > 15 && bufferSize < 256, "Invalid buffer size");
 
             if (buffer && bufferSize > 15 && bufferSize < 256)
             {

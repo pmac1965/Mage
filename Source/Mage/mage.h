@@ -21,3 +21,7 @@
 
 //
 #include "Core/types.h"
+#include "Core/version.h"
+#include "Debug/assert.h"
+#include "Debug/debug.h"
+#include "Debug/trace.h"

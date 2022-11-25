@@ -1,2 +1,6 @@
 ﻿  version.cpp
+  assert.cpp
+  debug.cpp
+  trace.cpp
+  Generating Code...
   Mage.vcxproj -> D:\Mage\Mage\Mage\x64\Debug\Mage.dll

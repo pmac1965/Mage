@@ -22,6 +22,21 @@
     <Filter Include="Source\Mage\Debug">
       <UniqueIdentifier>{c5df3b67-2000-47c7-a3ec-8a9ab49a1906}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Mage\File">
+      <UniqueIdentifier>{cd1e5b9d-b75d-4092-846d-97ed5840639b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mage\Event">
+      <UniqueIdentifier>{de0c0df4-0722-486e-b7f5-55a4d6314db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mage\Input">
+      <UniqueIdentifier>{4a15af0d-2f7f-4ab1-9089-c867c01361d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mage\Math">
+      <UniqueIdentifier>{ee3b417b-24f3-4dfd-a5c6-ab25ec2276c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mage\Render">
+      <UniqueIdentifier>{f75d8553-ebcd-412f-a07c-f825487513b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Mage\Core\types.h">
@@ -36,10 +51,28 @@
     <ClInclude Include="Source\Mage\Core\version.h">
       <Filter>Source\Mage\Core</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Mage\Debug\assert.h">
+      <Filter>Source\Mage\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Debug\debug.h">
+      <Filter>Source\Mage\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Debug\trace.h">
+      <Filter>Source\Mage\Debug</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Mage\Core\version.cpp">
       <Filter>Source\Mage\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Debug\assert.cpp">
+      <Filter>Source\Mage\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Debug\debug.cpp">
+      <Filter>Source\Mage\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Debug\trace.cpp">
+      <Filter>Source\Mage\Debug</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

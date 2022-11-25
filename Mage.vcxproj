@@ -142,10 +142,16 @@
     <ClInclude Include="Source\Mage\config.h" />
     <ClInclude Include="Source\Mage\Core\types.h" />
     <ClInclude Include="Source\Mage\Core\version.h" />
+    <ClInclude Include="Source\Mage\Debug\assert.h" />
+    <ClInclude Include="Source\Mage\Debug\debug.h" />
+    <ClInclude Include="Source\Mage\Debug\trace.h" />
     <ClInclude Include="Source\Mage\mage.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Mage\Core\version.cpp" />
+    <ClCompile Include="Source\Mage\Debug\assert.cpp" />
+    <ClCompile Include="Source\Mage\Debug\debug.cpp" />
+    <ClCompile Include="Source\Mage\Debug\trace.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
