@@ -60,6 +60,81 @@
     <ClInclude Include="Source\Mage\Debug\trace.h">
       <Filter>Source\Mage\Debug</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Mage\Core\application.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\args.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\camera.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\colour.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\defines.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\gameObject.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\macros.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\settings.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\singleton.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Core\transform.h">
+      <Filter>Source\Mage\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Event\event.h">
+      <Filter>Source\Mage\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Event\key.h">
+      <Filter>Source\Mage\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Event\mouse.h">
+      <Filter>Source\Mage\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\File\file.h">
+      <Filter>Source\Mage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\File\fileManager.h">
+      <Filter>Source\Mage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Input\joystick.h">
+      <Filter>Source\Mage\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Input\keyboard.h">
+      <Filter>Source\Mage\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Input\mouse.h">
+      <Filter>Source\Mage\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Render\indexBuffer.h">
+      <Filter>Source\Mage\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Render\mesh.h">
+      <Filter>Source\Mage\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Render\openGLUtils.h">
+      <Filter>Source\Mage\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Render\renderer.h">
+      <Filter>Source\Mage\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Render\shader.h">
+      <Filter>Source\Mage\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Render\texture.h">
+      <Filter>Source\Mage\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage\Render\vertexBuffer.h">
+      <Filter>Source\Mage\Render</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Mage\Core\version.cpp">
@@ -73,6 +148,60 @@
     </ClCompile>
     <ClCompile Include="Source\Mage\Debug\trace.cpp">
       <Filter>Source\Mage\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Core\application.cpp">
+      <Filter>Source\Mage\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Core\args.cpp">
+      <Filter>Source\Mage\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Core\colour.cpp">
+      <Filter>Source\Mage\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Core\gameObject.cpp">
+      <Filter>Source\Mage\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Core\settings.cpp">
+      <Filter>Source\Mage\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Event\event.cpp">
+      <Filter>Source\Mage\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\File\file.cpp">
+      <Filter>Source\Mage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\File\fileManager.cpp">
+      <Filter>Source\Mage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Input\joystick.cpp">
+      <Filter>Source\Mage\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Input\keyboard.cpp">
+      <Filter>Source\Mage\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Input\mouse.cpp">
+      <Filter>Source\Mage\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Render\indexBuffer.cpp">
+      <Filter>Source\Mage\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Render\mesh.cpp">
+      <Filter>Source\Mage\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Render\openGLUtils.cpp">
+      <Filter>Source\Mage\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Render\renderer.cpp">
+      <Filter>Source\Mage\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Render\shader.cpp">
+      <Filter>Source\Mage\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Render\texture.cpp">
+      <Filter>Source\Mage\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage\Render\vertexBuffer.cpp">
+      <Filter>Source\Mage\Render</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -140,18 +140,61 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Source\Mage\config.h" />
+    <ClInclude Include="Source\Mage\Core\application.h" />
+    <ClInclude Include="Source\Mage\Core\args.h" />
+    <ClInclude Include="Source\Mage\Core\camera.h" />
+    <ClInclude Include="Source\Mage\Core\colour.h" />
+    <ClInclude Include="Source\Mage\Core\defines.h" />
+    <ClInclude Include="Source\Mage\Core\gameObject.h" />
+    <ClInclude Include="Source\Mage\Core\macros.h" />
+    <ClInclude Include="Source\Mage\Core\settings.h" />
+    <ClInclude Include="Source\Mage\Core\singleton.h" />
+    <ClInclude Include="Source\Mage\Core\transform.h" />
     <ClInclude Include="Source\Mage\Core\types.h" />
     <ClInclude Include="Source\Mage\Core\version.h" />
     <ClInclude Include="Source\Mage\Debug\assert.h" />
     <ClInclude Include="Source\Mage\Debug\debug.h" />
     <ClInclude Include="Source\Mage\Debug\trace.h" />
+    <ClInclude Include="Source\Mage\Event\event.h" />
+    <ClInclude Include="Source\Mage\Event\key.h" />
+    <ClInclude Include="Source\Mage\Event\mouse.h" />
+    <ClInclude Include="Source\Mage\File\file.h" />
+    <ClInclude Include="Source\Mage\File\fileManager.h" />
+    <ClInclude Include="Source\Mage\Input\joystick.h" />
+    <ClInclude Include="Source\Mage\Input\keyboard.h" />
+    <ClInclude Include="Source\Mage\Input\mouse.h" />
     <ClInclude Include="Source\Mage\mage.h" />
+    <ClInclude Include="Source\Mage\Render\indexBuffer.h" />
+    <ClInclude Include="Source\Mage\Render\mesh.h" />
+    <ClInclude Include="Source\Mage\Render\openGLUtils.h" />
+    <ClInclude Include="Source\Mage\Render\renderer.h" />
+    <ClInclude Include="Source\Mage\Render\shader.h" />
+    <ClInclude Include="Source\Mage\Render\texture.h" />
+    <ClInclude Include="Source\Mage\Render\vertexBuffer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Mage\Core\application.cpp" />
+    <ClCompile Include="Source\Mage\Core\args.cpp" />
+    <ClCompile Include="Source\Mage\Core\colour.cpp" />
+    <ClCompile Include="Source\Mage\Core\gameObject.cpp" />
+    <ClCompile Include="Source\Mage\Core\settings.cpp" />
     <ClCompile Include="Source\Mage\Core\version.cpp" />
     <ClCompile Include="Source\Mage\Debug\assert.cpp" />
     <ClCompile Include="Source\Mage\Debug\debug.cpp" />
     <ClCompile Include="Source\Mage\Debug\trace.cpp" />
+    <ClCompile Include="Source\Mage\Event\event.cpp" />
+    <ClCompile Include="Source\Mage\File\file.cpp" />
+    <ClCompile Include="Source\Mage\File\fileManager.cpp" />
+    <ClCompile Include="Source\Mage\Input\joystick.cpp" />
+    <ClCompile Include="Source\Mage\Input\keyboard.cpp" />
+    <ClCompile Include="Source\Mage\Input\mouse.cpp" />
+    <ClCompile Include="Source\Mage\Render\indexBuffer.cpp" />
+    <ClCompile Include="Source\Mage\Render\mesh.cpp" />
+    <ClCompile Include="Source\Mage\Render\openGLUtils.cpp" />
+    <ClCompile Include="Source\Mage\Render\renderer.cpp" />
+    <ClCompile Include="Source\Mage\Render\shader.cpp" />
+    <ClCompile Include="Source\Mage\Render\texture.cpp" />
+    <ClCompile Include="Source\Mage\Render\vertexBuffer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
